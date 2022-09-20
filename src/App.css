@@ -2,37 +2,110 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav {
+  height: 60px;
+  background-color: rgba(173, 216, 230, 0.722);
   display: flex;
-  flex-direction: column;
+  position: relative;
+  right: 85px;
+  padding: 0 90px;
+  justify-content: space-between; /* horizontal access by default - justify content */
+  align-items: center;  /* vertical by default */
+}
+
+.logo-container {
+  width: 150px;
+  position: relative;   /* fall where you're supposed to but I can use top, left, bottom or right to offset you from where you're supposed to fall */
+  top: 11px;
+}
+
+h2{
+  margin: 0;
+}
+
+h1{
+  margin: 0;
+}
+
+.cool-bar {
+  background-color: yellowgreen;
+  height: 17px;
+  position: relative;
+  top: -30px; 
+  z-index: -1;
+}
+
+.nav-items-container {
+  width: 250px;
+  background-color: rgb(63, 145, 233);
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+.navbar-top-section {
+  background-color: rgba(137, 43, 226, 0.263);
+  height: max-content;
+  margin: 8px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.left-side-logo-container {
+  position: relative;
+   /* right: 95%;  */
+   left: 40px;
+   margin-top: 630px; 
+
+}
+
+.navbar-left-section {
+  background-color:aquamarine;
+  height: 30px; 
+  margin: 20px;
+}
+
+.top-right-navbar-container {
+  background-color: aqua;
+  height: 40px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-right-navbar {
+  background-color: beige;
+  margin: 5px;
+  /* height: 10px; */
+  width: fit-content;
+  
+}
+
+.front-page-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 90px 200px;
+}
+
+.text-intro-container {
+  /* margin-right: 302px; */
+  
+}
+
+.my-name {
+  font-family: 'Nabla', cursive;
+  font-weight: 700;
+  font-size: 100px;
+}
+
+
+.im-an-engineer {
+  font-family: 'Nabla', cursive;
+  font-size: 50px;
+}
+
+.picture-of-me {
+  background-color: blueviolet;
+  height: 450px;
+  width: 350px;
 }
