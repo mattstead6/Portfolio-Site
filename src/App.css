@@ -4,7 +4,6 @@
 
 nav {
   height: 60px;
-  background-color: rgba(173, 216, 230, 0.722);
   display: flex;
   position: relative;
   right: 85px;
@@ -13,10 +12,11 @@ nav {
   align-items: center;  /* vertical by default */
 }
 
-.logo-container {
+.name-container {
   width: 150px;
   position: relative;   /* fall where you're supposed to but I can use top, left, bottom or right to offset you from where you're supposed to fall */
   top: 11px;
+  right: 680px;
 }
 
 h2{
@@ -28,16 +28,16 @@ h1{
 }
 
 .cool-bar {
-  background-color: yellowgreen;
+  background-color: rgba(68, 160, 140, 0.721);
   height: 17px;
   position: relative;
   top: -30px; 
   z-index: -1;
+  border-radius: 10% 30% 50% 70%;
 }
 
 .nav-items-container {
   width: 250px;
-  background-color: rgb(63, 145, 233);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -45,41 +45,37 @@ h1{
 
 
 .navbar-top-section {
-  background-color: rgba(137, 43, 226, 0.263);
   height: max-content;
   margin: 8px;
+  position: relative;
+  right: 370px;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .left-side-logo-container {
   position: relative;
-   /* right: 95%;  */
-   left: 40px;
-   margin-top: 630px; 
+  right: 26%;
+ margin-top: 630px; 
 
 }
 
 .navbar-left-section {
-  background-color:aquamarine;
-  height: 30px; 
-  margin: 20px;
+/* height: 29px;   */
+  margin: 55px;
+  /* padding: 9px; */
 }
 
 .top-right-navbar-container {
-  background-color: aqua;
   height: 40px;
-  width: 200px;
+  width: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.top-right-navbar {
-  background-color: beige;
-  margin: 5px;
-  /* height: 10px; */
-  width: fit-content;
-  
-}
+/* .top-right-navbar {
+  margin: 13px;
+} */
 
 .front-page-container {
   display: flex;
@@ -93,19 +89,39 @@ h1{
 }
 
 .my-name {
-  font-family: 'Nabla', cursive;
-  font-weight: 700;
-  font-size: 100px;
+  font-family: 'Indie Flower', cursive; 
+  font-size: 150px;
+  margin: -10px 95px;
+  
 }
 
 
 .im-an-engineer {
-  font-family: 'Nabla', cursive;
+  font-family: 'Indie Flower', cursive;
   font-size: 50px;
 }
 
 .picture-of-me {
-  background-color: blueviolet;
-  height: 450px;
-  width: 350px;
+   height: 500px;
+   border-radius: 100%;
+  width: 350px; 
+}
+
+.socials-logos {
+  width: 6%;
+}
+
+.top-logos {
+  width: 100%;
+  margin: 66%;
+  
+}
+
+.links {
+  color: black;
+  background-color: black;
+  position: relative;
+  z-index: -1;
+  border-radius: 10% 30% 50% 70%;
+  height: 20px
 }
